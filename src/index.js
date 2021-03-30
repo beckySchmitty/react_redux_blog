@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import reducer from "./reducer";
+import rootReducer from "./rootReducer";
 import { Provider } from "react-redux";
 
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 
 const store = createStore(
-  reducer,
+  rootReducer,
   compose(
     applyMiddleware(thunk),
     window.__REDUX_DEVTOOLS_EXTENSION__
