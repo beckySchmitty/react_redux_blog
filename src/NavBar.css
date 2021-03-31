@@ -1,0 +1,19 @@
+.Nav-header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.Nav-link {
+margin-right: 50px;
+margin-left: 50px;
+display: inline-block;
+text-decoration: none;
+font-size: 20px;;
+
+}

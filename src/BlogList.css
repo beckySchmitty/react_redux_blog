@@ -1,0 +1,16 @@
+.BlogList-container {
+    align-items: flex-start;
+}
+
+
+.Post-Abbrv {
+    outline: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Post-Abbrv-h3 {
+    font-weight: bold;
+    color: darkslategray;
+}

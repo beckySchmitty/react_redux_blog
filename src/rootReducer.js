@@ -19,7 +19,6 @@
         return { ...state, [action.post.id]: action.post };
   
       case SAVE_POST:
-        console.log(`*************************${uuidv4()}`)
         return { ...state, [uuidv4()]: { ...action.formData, comments: [] }};
   
       case UPDATE_POST:

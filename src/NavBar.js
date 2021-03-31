@@ -1,22 +1,25 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav, NavItem } from "reactstrap";
+import { Navbar, Nav } from "reactstrap";
+import "./NavBar.css"
 
 function NavBar() {
   return (
-    <div>
+    <div className="Nav-container">
+      <header className="Nav-header jumbotron mt-2">
       <Navbar expand="md">
-        <NavLink exact to="/" className="navbar-brand">
+          <h1 className="App-title display-4">
+        <NavLink exact to="/" className="Nav-header">
           MicroBlog
         </NavLink>
+        </h1>
 
-        <Nav className="ml-auto" navbar>
-          <NavItem>
-            <NavLink to="/">Blog</NavLink>
-            <NavLink to="/new">Add Blog Post</NavLink>
-          </NavItem>
+        <Nav >
+            <NavLink className="Nav-link" to="/">Blog</NavLink>
+            <NavLink className="Nav-link" to="/new">Add Blog Post</NavLink>
         </Nav>
       </Navbar>
+      </header>
     </div>
   );
 }
