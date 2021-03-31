@@ -7,8 +7,8 @@ const BlogList = () => {
 
     const blogDataForHome = Object.entries(blogData).map(([key]) => {
         return <AbbrvPostDetails 
-        id={blogData[key]} 
-        key={blogData[key]} 
+        id={key} 
+        key={key} 
         title={blogData[key].title} 
         description={blogData[key].description}/>
         })

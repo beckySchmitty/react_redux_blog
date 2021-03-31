@@ -25,7 +25,6 @@ const PostForm = () => {
 
     const handleSubmitAndSave = (e) => {
         e.preventDefault()
-        console.log(JSON.stringify(formData))
         // DISPATCH
         dispatch({type: SAVE_POST, formData: formData});
         // reset form data
