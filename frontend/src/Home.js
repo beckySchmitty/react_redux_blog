@@ -2,7 +2,7 @@ import React from "react"
 import BlogList from "./BlogList"
 import "./BlogList.css"
 
-const BlogHome = () => {
+const Home = () => {
 
     return (
         <div>
@@ -14,4 +14,4 @@ const BlogHome = () => {
     )
 }
 
-export default BlogHome;
+export default Home;
