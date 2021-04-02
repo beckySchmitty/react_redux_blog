@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
-import {SAVE_POST} from "./actionTypes"
+import {SAVE_POST} from "../redux_funcs/actionTypes"
 
 const PostForm = () => {
     const dispatch = useDispatch();

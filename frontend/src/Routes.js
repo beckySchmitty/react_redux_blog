@@ -1,8 +1,7 @@
 import { Route, Switch } from "react-router-dom";
-import BlogHome from "./BlogHome"
-import PostForm from "./PostForm"
-import PostDetails from "./PostDetails"
-import NotFound from "./NotFound"
+import Home from "./Home"
+import PostForm from "./components/PostForm"
+import NotFound from "./extra/NotFound"
 
 
 const Routes = () => {
@@ -10,9 +9,9 @@ const Routes = () => {
     return (
       <div>
         <Switch>
-        <Route exact path="/"><BlogHome /></Route>
+        <Route exact path="/"><Home /></Route>
         <Route exact path="/new"><PostForm/></Route>
-        <Route exact path="/:postId"><PostDetails /></Route>
+        <Route exact path="/:postId"><Post /></Route>
         <Route><NotFound /></Route>  
         </Switch>     
         </div>
