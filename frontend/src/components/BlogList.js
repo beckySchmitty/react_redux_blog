@@ -17,7 +17,7 @@ const BlogList = () => {
 
     return (
         <div>
-        {blogDataForHome}
+        {blogData}
         </div>
     )
 

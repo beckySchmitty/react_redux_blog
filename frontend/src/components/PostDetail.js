@@ -1,5 +1,5 @@
 import React from 'react';
-import "./PostDetail.css";
+import "../style/PostDetail.css";
 
 // Display details of a post
 // note to self: add edit/delete/vote 

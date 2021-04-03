@@ -2,6 +2,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Home"
 import PostForm from "./components/PostForm"
 import NotFound from "./extra/NotFound"
+import Post from "./components/Post"
 
 
 const Routes = () => {

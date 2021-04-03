@@ -1,6 +1,6 @@
 import React from "react"
 import BlogList from "./components/BlogList"
-import "./BlogList.css"
+import "./style/BlogList.css"
 
 const Home = () => {
 
